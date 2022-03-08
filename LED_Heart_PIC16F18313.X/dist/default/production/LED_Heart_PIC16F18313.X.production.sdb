@@ -1,0 +1,125 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18313 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"48 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"78
+[v _LEDsOut LEDsOut `(v  1 e 1 0 ]
+"50 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"79
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1469 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18313.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S73 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1484
+[u S80 . 1 `S73 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES80  1 e 1 @140 ]
+"1714
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2024
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S90 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2039
+[u S97 . 1 `S90 1 . 1 0 ]
+[v _LATAbits LATAbits `VES97  1 e 1 @268 ]
+"2428
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3339
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4787
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5136
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"5181
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"8787
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"8832
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"8871
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"8905
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"8950
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"8978
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"9075
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"9215
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"9312
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"9358
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"9416
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"48 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"70
+[v main@i i `uc  1 a 1 4 ]
+"76
+} 0
+"50 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"73
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"79
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"55 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"59 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"78 C:\Users\Marci\MPLABXProjects\LED_Heart_PIC16F18313.X\main.c
+[v _LEDsOut LEDsOut `(v  1 e 1 0 ]
+{
+[v LEDsOut@LEDs LEDs `uc  1 a 1 wreg ]
+[v LEDsOut@LEDs LEDs `uc  1 a 1 wreg ]
+[v LEDsOut@LEDs LEDs `uc  1 a 1 2 ]
+"207
+} 0
